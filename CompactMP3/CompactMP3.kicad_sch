@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "656d6c76-1a68-4805-bef0-da3ed3345cde")
@@ -7555,7 +7555,7 @@
 	)
 	(text "BATTERY\n"
 		(exclude_from_sim no)
-		(at 118.872 131.572 0)
+		(at 123.444 131.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7970,6 +7970,12 @@
 		(uuid "f1ce32d7-4baa-411d-9383-2780afe0040b")
 	)
 	(junction
+		(at 105.41 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f20b82f3-a856-45fb-8488-2e26578284f8")
+	)
+	(junction
 		(at 220.98 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8044,6 +8050,10 @@
 	(no_connect
 		(at 57.15 130.81)
 		(uuid "51e1464c-d265-4b6e-8d82-19b9282f6581")
+	)
+	(no_connect
+		(at 243.84 203.2)
+		(uuid "526e943a-de8e-4cef-8134-781a1557382a")
 	)
 	(no_connect
 		(at 57.15 80.01)
@@ -8248,6 +8258,16 @@
 			(type default)
 		)
 		(uuid "1c36c7da-48a2-4c1e-ad9b-536cc8289ab2")
+	)
+	(wire
+		(pts
+			(xy 105.41 130.81) (xy 100.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f17255c-1be5-4942-85e5-561781e75b31")
 	)
 	(wire
 		(pts
@@ -9291,6 +9311,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 130.81) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a60d45-6033-4c14-9560-c68bae6a09ea")
+	)
+	(wire
+		(pts
 			(xy 431.8 260.35) (xy 429.26 260.35)
 		)
 		(stroke
@@ -10253,7 +10283,7 @@
 	)
 	(global_label "BATMON"
 		(shape input)
-		(at 100.33 130.81 0)
+		(at 109.22 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10263,7 +10293,7 @@
 		)
 		(uuid "1798ee0e-e9b7-4b6b-9fab-3f86a681cead")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.7538 130.81 0)
+			(at 119.6438 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13368,7 +13398,7 @@
 			(uuid "a2d869a6-698b-4aa1-a676-ea0f60034242")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R1")
 					(unit 1)
@@ -13550,7 +13580,7 @@
 			(uuid "a07470b2-12cb-4803-b0ad-ec6fd52c57d5")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "SW1")
 					(unit 1)
@@ -13809,7 +13839,7 @@
 			(uuid "afb2ce57-9d01-47ff-8868-97d1440d1a8f")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "TP1")
 					(unit 1)
@@ -14072,7 +14102,7 @@
 			(uuid "31e3e390-2b22-49f6-b06e-25f0da79cba3")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U2")
 					(unit 1)
@@ -14342,7 +14372,7 @@
 			(uuid "fc0e9d96-cba7-4ac0-95ae-3039bd9ebf79")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U3")
 					(unit 1)
@@ -15061,7 +15091,7 @@
 			(uuid "0a271d2b-dcd5-4404-b8ea-96d8f73d4839")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R10")
 					(unit 1)
@@ -15806,7 +15836,7 @@
 			(uuid "a933d262-8805-4ac1-8354-b4d5abf9aa95")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "CN1")
 					(unit 1)
@@ -15885,7 +15915,7 @@
 			(uuid "afa76c22-bb9d-4948-adc2-a58c86465ebe")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R8")
 					(unit 1)
@@ -15974,7 +16004,7 @@
 			(uuid "f217c06a-17b3-458e-a95b-3dd41830ff1d")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "J1")
 					(unit 1)
@@ -16471,7 +16501,7 @@
 			(uuid "6cb14213-82f8-40d8-a250-23f0a3a68291")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U1")
 					(unit 1)
@@ -17522,7 +17552,7 @@
 			(uuid "e863208b-fdfa-4154-8c59-bbcc0a41cc98")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "X1")
 					(unit 1)
@@ -17762,7 +17792,7 @@
 			(uuid "1f52ff23-51f1-4c8f-9142-321fdbf83f2f")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "L1")
 					(unit 1)
@@ -18157,7 +18187,7 @@
 			(uuid "36f6b0a2-609b-403f-a1fd-9c3a4aca2c6c")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R5")
 					(unit 1)
@@ -18899,7 +18929,7 @@
 			(uuid "447f8eda-6d8c-4a61-8bd1-945decbaf61c")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C1")
 					(unit 1)
@@ -19062,7 +19092,7 @@
 			(uuid "067f9fe0-7448-498e-a22c-45921e88ce86")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "#PWR0105")
 					(unit 1)
@@ -19305,7 +19335,7 @@
 			(uuid "df6ae793-c12b-401f-a853-d39f997e89ea")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C2")
 					(unit 1)
@@ -19721,7 +19751,7 @@
 			(uuid "e6b4e52d-8c0d-4756-aa3f-038a3a7668e9")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "J2")
 					(unit 1)
@@ -20132,7 +20162,7 @@
 			(uuid "3c495431-e359-447b-8e5b-bc801701b48c")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "Q2")
 					(unit 1)
@@ -20529,7 +20559,7 @@
 			(uuid "01478ae9-fb61-4f5f-aa20-f53916852cb2")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C16")
 					(unit 1)
@@ -21368,7 +21398,7 @@
 			(uuid "9068197b-d2a3-4771-a9fe-040ea9482eb4")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "Card1")
 					(unit 1)
@@ -22241,7 +22271,7 @@
 			(uuid "89f6a109-28ee-4c1b-8019-9f6907064f40")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R16")
 					(unit 1)
@@ -22717,7 +22747,7 @@
 			(uuid "b9f2ce3b-20bc-4ea2-a97a-ec65f21b4f2a")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "#PWR0107")
 					(unit 1)
@@ -23972,6 +24002,85 @@
 		)
 	)
 	(symbol
+		(lib_id "fab:C_0603")
+		(at 105.41 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a153463a-fada-4853-80a1-bec53a10029f")
+		(property "Reference" "C31"
+			(at 107.442 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 108.204 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CHXXX:0402"
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, SMD, 1206"
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70a1f93e-f94f-469c-b902-1ab507df845f")
+		)
+		(pin "2"
+			(uuid "cbccf8c2-1c07-4da2-849a-120e64526868")
+		)
+		(instances
+			(project "CompactMP3"
+				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Testpoint:testpoint")
 		(at 447.04 76.2 0)
 		(unit 1)
@@ -24293,7 +24402,7 @@
 			(uuid "784d9f0b-efa4-4ffb-8da8-02eafd7abe86")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U4")
 					(unit 1)
@@ -24378,7 +24487,7 @@
 			(uuid "d9a841e3-f6a1-4bdf-9da0-5a0d0de760d7")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R13")
 					(unit 1)
@@ -24800,7 +24909,7 @@
 			(uuid "641bf574-3151-45c2-8c39-6ed3f23c6db9")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U5")
 					(unit 1)
@@ -25131,7 +25240,7 @@
 			(uuid "bba98a91-e3d7-4b2c-a7f9-3576b7a8e413")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R12")
 					(unit 1)
@@ -25382,7 +25491,7 @@
 			(uuid "3e3d7c1f-1781-4a00-b7e0-215ab2723e5a")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "D1")
 					(unit 1)
@@ -25481,7 +25590,7 @@
 			(uuid "f1497e41-cff7-4c0b-8ea0-f856ba9a646b")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "CN2")
 					(unit 1)
@@ -25563,7 +25672,7 @@
 			(uuid "a1b2ed91-c6ee-482a-834d-231fa6a44bf5")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C18")
 					(unit 1)
@@ -25860,7 +25969,7 @@
 			(uuid "c7053d12-7136-43d0-91e8-c31309528154")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U10")
 					(unit 1)
@@ -26024,13 +26133,9 @@
 			(uuid "4cdee336-7961-41cc-a3d0-ce0a483d8fbf")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "J3")
-					(unit 1)
-				)
-				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde/e02843d2-26bd-45d1-b523-572badcb6485"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -26271,7 +26376,7 @@
 			(uuid "bdb84344-4fb3-4595-8f09-02acf63398b0")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "#PWR0102")
 					(unit 1)
@@ -26613,7 +26718,7 @@
 			(uuid "3a0f757c-6261-418e-be70-e2cca3580de8")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "Q1")
 					(unit 1)
@@ -26694,7 +26799,7 @@
 			(uuid "7a5c428b-4d50-4664-b9f9-c5d8b2c89595")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C25")
 					(unit 1)
@@ -26776,6 +26881,84 @@
 			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:PWR_GND")
+		(at 105.41 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cddd806a-1f6e-4579-85f7-820e270b379a")
+		(property "Reference" "#PWR078"
+			(at 105.41 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_GND"
+			(at 105.41 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb031b4e-44bc-4f2b-9e56-e79bd6899f6b")
+		)
+		(instances
+			(project "CompactMP3"
+				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -26954,7 +27137,7 @@
 			(uuid "49e80add-e877-4e71-8e94-054cf391e359")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "U6")
 					(unit 1)
@@ -27270,7 +27453,7 @@
 			(uuid "3bf8e03c-1fc4-44f5-a9af-7560577687b1")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "R6")
 					(unit 1)
@@ -28010,7 +28193,7 @@
 			(uuid "c2e4781d-2e2c-44a4-9e0c-9ea019dd91a5")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C3")
 					(unit 1)
@@ -28249,7 +28432,7 @@
 			(uuid "42c396f2-04c4-4ae6-a4a5-9ba7bbaabb6a")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "C28")
 					(unit 1)
@@ -29100,7 +29283,7 @@
 			(uuid "980fd766-5970-40e1-94e1-2ed73144c7cc")
 		)
 		(instances
-			(project ""
+			(project "CompactMP3"
 				(path "/656d6c76-1a68-4805-bef0-da3ed3345cde"
 					(reference "S1")
 					(unit 1)
